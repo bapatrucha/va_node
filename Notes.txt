@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "intent": "GET_PRE_APPROVAL",
+      "textResponse": "Great! That's all my questions. I already have your credit score, personal information and loan amount."
+    },
+    {
+      "intent": "GET_PRE_APPROVAL",
+      "textResponse": "Please confirm that I can submit this information to apply for pre-approval.",
+      "responseObj": {
+        "type": "Buttons",
+        "Buttons": [
+          {
+            "title": "Confirm",
+            "payload": "Confirm pre-approval"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+
+TODO:

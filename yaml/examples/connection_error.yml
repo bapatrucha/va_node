@@ -1,0 +1,3 @@
+- component: chat_text
+  properties:
+    text: Oops, it looks like our Mule server is down. Please try again later.

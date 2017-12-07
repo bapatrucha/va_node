@@ -1,0 +1,9 @@
+- component: chat_text
+  properties:
+    text: Here are your subscriptions
+- component: chat_widget
+  properties:
+    type: subscriptions
+    payload: ~
+    data:
+      - key1: {value1}

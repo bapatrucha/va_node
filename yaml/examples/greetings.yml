@@ -1,0 +1,17 @@
+- component: chat_text
+  properties:
+    text: Good morning! How can I help you today?
+- component: chat_text
+  properties:
+    text: Here are some of the things that I understand.
+- component: chat_buttons
+  properties:
+    buttons:
+      - title: My Monthly Expenses
+        payload: manage my expenses
+      - title: Help Me Save
+        payload: Help me save mone
+      - title: Manage Subscriptions
+        payload: Show me my subscriptions
+      - title: Set-up A Goal
+        payload: Show me my subscriptions

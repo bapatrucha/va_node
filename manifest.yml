@@ -1,5 +1,5 @@
 ---
 applications:
- - name: GetStartedNode
+ - name: va-node-assistant
    random-route: true
    memory: 256M

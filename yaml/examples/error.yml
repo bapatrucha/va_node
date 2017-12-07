@@ -1,0 +1,15 @@
+- component: chat_text
+  properties:
+    text: Sorry, I didn't quite get that.
+- component: chat_text
+  properties:
+    text: Here are some of the things that I can help you with.
+- component: chat_buttons
+  properties:
+    buttons:
+      - title: My Monthly Expenses
+        payload: manage my expenses
+      - title: Help Me Save
+        payload: Help me save mone
+      - title: Manage Subscriptions
+        payload: Show me my subscriptions

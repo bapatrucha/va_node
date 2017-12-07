@@ -1,0 +1,14 @@
+- component: chat_text
+  properties:
+    text: Sure, here are your latest expenses.
+- component: chat_widget
+  properties:
+    type: expense_report
+    payload: ~
+    data:
+      - rent: 42
+        credit_card: ~
+        food: 6
+        transportation: 12
+        utilities: 6
+        discretionary: 7

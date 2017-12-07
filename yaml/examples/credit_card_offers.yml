@@ -1,0 +1,12 @@
+- component: chat_text
+  properties:
+    text: Here is how you can save.
+- component: chat_widget
+  properties:
+    type: credit_card_offer
+    payload: I want to apply for a cash wise credit card
+    data:
+      - apr: 3.5
+        credit_limit: 2500
+        image_path: cash-rewards
+        card_product_id: 3
