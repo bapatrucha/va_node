@@ -12,8 +12,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-app.use('/', index);
-app.use('/notifications', notifications);
+app.use('/va', index);
+app.use('/va/notifications', notifications);
 // load local VCAP configuration  and service credentials
 var vcapLocal;
 try {
